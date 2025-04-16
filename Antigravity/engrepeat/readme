@@ -1,0 +1,4 @@
+  💡 小撇步：日後如果在開發時又遇到 EADDRINUSE :::3000，可以使用以下快速指令清空 Port 3000：
+
+  • 通用（最方便）： npx kill-port 3000
+  • Linux / Mac： fuser -k 3000/tcp
